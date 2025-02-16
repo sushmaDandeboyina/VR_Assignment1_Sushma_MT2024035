@@ -8,8 +8,8 @@
   - Extracted the outmost contour as it the outline of the coin and marked the outline on the coins
 - **Segmentation:**
   - Created a empty image with all black pixels which acts a mask, drew the identified contours on the mask.
-  - Assigned random colors to segmented regions, and overlaid the mask on the original image by keeping the transparecy as 0.5.
-  - After finding the bounding box for every coin, extracted those bounding boxes as seperate images.
+  - Assigned random colors to segmented regions, and overlaid the mask on the original image by keeping the transparency as 0.5.
+  - After finding the bounding box for every coin, extracted those bounding boxes as separate images.
 - **Counting:**
   - Counted the number of segmented regions and labeled each coin with a number at its centroid location.
 
@@ -40,7 +40,7 @@
    - Applied Brute force algorithm to find the common keypoints in images.
    - Using Lowe's ratio test found good matches.
    - Computed homographies of the images using RANSAC to deal with outliers and also aligned images.
-   - Estimated transformations to warp images into a common coordinate systema dn adjusted the output panorama size based on transformed corner corrdinates.
+   - Estimated transformations to warp images into a common coordinate system and adjusted the output panorama size based on transformed corner coordinates.
    - Warped images using the translation matrix to align images and blended them into a single panoramic view.
 
  ### How to Run:
@@ -52,7 +52,7 @@
    ```sh
    python panoroma.py
 ### Input and Output Files(images folder):
-  #### Eaxample 1:-
+  #### Example 1:-
     * Input Image1: lib1.jpg
     * Input Image2: lib2.jpg
     * Input Image3: lib3.jpg
@@ -60,7 +60,7 @@
     * SIFT on image2:- lib2_sift.jpg
     * SIFT on image3:- lib3_sift.jpg
     * final result:- panorama.jpg
-  #### Eaxample 2:-
+  #### Example 2:-
     * Input Image1: palace1.jpg
     * Input Image2: palace2.jpg
     * Input Image3: palace3.jpg
@@ -68,7 +68,7 @@
     * SIFT on image2:- palace2_sift.jpg
     * SIFT on image3:- palace3_sift.jpg
     * final result:- panorama2.jpg
-  #### Eaxample 3:-
+  #### Example 3:-
     * Input Image1: college_left.jpg
     * Input Image2: college_center.jpg
     * Input Image3: college_right.jpg
