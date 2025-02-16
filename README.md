@@ -4,8 +4,8 @@
 
 ### Steps Implemented:
 - **Detection:**
-  - Used Canny edge detection to identify coin edges by converting the image to gray scale as canny's work best with single channeled image and also smoothened the image with guassian blur.
-  - Extarcted the outmost contour as it the outline of the coin and marked the ourline on the coins
+  - Used Canny edge detection to identify coin edges by converting the image to gray scale as canny's work best with single channeled image and also smoothened the image with gaussian blur.
+  - Extracted the outmost contour as it the outline of the coin and marked the outline on the coins
 - **Segmentation:**
   - Created a empty image with all black pixels which acts a mask, drew the identified contours on the mask.
   - Assigned random colors to segmented regions, and overlaid the mask on the original image by keeping the transparecy as 0.5.
