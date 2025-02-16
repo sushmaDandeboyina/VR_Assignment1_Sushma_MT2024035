@@ -17,7 +17,8 @@
 1. Ensure you have OpenCV installed:  
    ```sh
    pip install opencv-python numpy
-2. Open the terminal, navigate to the script location, and run:
+2. Make sure to update the input image path in the code as per its location.
+3. Open the terminal, navigate to the script location, and run:
    ```sh
    python coin_segmentation.py
 ### Input and Output Files(images folder):
@@ -46,7 +47,8 @@
 1. Ensure you have OpenCV installed:  
    ```sh
    pip install opencv-python numpy
-2. Open the terminal, navigate to the script location, and run:
+2. Make sure to update the input image path in the code as per its location.
+3. Open the terminal, navigate to the script location, and run:
    ```sh
    python panoroma.py
 ### Input and Output Files(images folder):
