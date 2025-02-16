@@ -19,7 +19,7 @@
 2. Open the terminal, navigate to the script location, and run:
    ```sh
    python coin_segmentation.py
-### Input and Output Files:
+### Input and Output Files(images folder):
     * Input Image: coins2.jpg
     * Canny Edge Detection Output: 1_a_edges.jpg
     * Outlines of Detected Coins: 1_a_result.jpg
@@ -46,7 +46,7 @@
 2. Open the terminal, navigate to the script location, and run:
    ```sh
    python panoroma.py
-### Input and Output Files:
+### Input and Output Files(images folder):
   #### Eaxample 1:-
     * Input Image1: pano1.jpg
     * Input Image2: pano2.jpg
